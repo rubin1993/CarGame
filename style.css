@@ -1,0 +1,104 @@
+#race {
+	text-align: center;
+	background-color: #242021;
+}
+#title {
+	height: 20vh;
+}
+button {
+	height: 45px;
+	width: 150px;
+	border: 2px solid white;
+	color: white;
+	background-color: #242021;
+}
+#start {
+	margin-right: 15px;
+}
+#finish {
+	margin-left: 15px;
+}
+#track {
+	height: 45vh;
+	background-image: url('img/raceTrack.jpg');
+	background-size: contain;
+}
+.flag {
+	height: 45vh;
+	width: 100vw;
+	position: relative;
+	z-index: 1;
+}
+#fin {
+	background-image: url('img/finish.gif');
+	background-repeat: no-repeat;
+	margin-left: 530px;
+	position: relative;
+	top: -400px;
+	height: 45vh;
+	z-index: 3;
+}
+h1, h2, h3 {
+	color: 	#a2a2a2;
+}
+#car1, #car2 {
+	height: 35vh;
+	width: 15vw;
+	background-image: url('img/car1.gif');
+	background-size: contain;
+}
+#car2{
+	background-image: url('img/car2.gif');
+	position: relative;
+	top: -100px;	
+}
+#car1 {
+	position: relative;
+	top: -20px;
+}
+#car1P, #storage1 {
+	color:#ffebf7;
+}
+#car2P, #storage2 {
+	color: #ba0000;
+}
+#results {
+	height: 30vh;
+	color: white;
+}
+.box {
+	height: 10vh;
+	width: 20vw;
+	border: 1px solid white;
+	font-size: 20px;
+}
+.box2 {
+	width: 45vw;
+	height: 5vh;
+	border: 1px solid white;
+}
+#countdown {
+	position: relative;
+	top: -400px;
+}
+#number {
+	color: white;
+	font-size: 45px;
+}
+.previous {
+	margin-top: 67px;
+}
+h3 { font-size: 25px; }
+
+h2 { font-size: 35px;
+	margin-top: 10px;
+}
+
+h1 { font-size: 50px; }
+
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
